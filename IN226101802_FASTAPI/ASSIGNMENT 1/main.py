@@ -1,3 +1,4 @@
+# Task 6: FastAPI Assignment
 from fastapi import FastAPI
 
 # 1. Initialize the FastAPI app
@@ -116,4 +117,5 @@ def get_deals():
     return {
         "best_deal": cheapest,
         "premium_pick": expensive
+
     }
